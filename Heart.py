@@ -1,0 +1,17 @@
+import turtle as A
+
+A.speed(2)
+A.penup()
+A.goto(0, -100)
+A.pendown()
+A.color("green")
+A.begin_fill()
+A.left(140)
+A.forward(180)
+A.circle(-90, 200)
+A.left(120)
+A.circle(-90, 200)
+A.forward(180)
+A.end_fill()
+A.hideturtle()
+A.done()
